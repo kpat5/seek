@@ -12,7 +12,7 @@
     <color name="registerPageBackgroundColor">#252529</color>
     <color name="colorControlActivated">#707070</color>
     <color name="appBar">#494949</color>
-    <color name="button">@color/noon_light_pop</color>
+    <color name="button">@color/colorPrimary</color>
     <color name="headingColor">#4ef8e8</color>
     <color name="tabTextColor">#fff</color>
     <color name="tabIndicatorColor">#ff4081</color>
