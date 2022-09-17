@@ -19,6 +19,9 @@
             android:name=".Booking_landing"
             android:exported="false" />
         <activity
+            android:name=".Bmu_Map"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
