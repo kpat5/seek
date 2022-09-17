@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Seek</string>
+    <string name="mess">Mess</string>
+    <string name="menu">Menu:</string>
+    <string name="reason">Reason:</string>
+    <string name="room">Room No:</string>
+    <string name="phone">Phone No:</string>
+    <string name="email">Email ID:</string>
+    <string name="request">Send Request</string>
+    <string name="smoothie">Smoothie Zone</string>
+    <string name="order">Order:</string>
+    <string name="location">Location:</string>
+    <string name="place">Place Order</string>
+
 </resources>
