@@ -32,6 +32,9 @@
             android:exported="false" />
 >>>>>>> 6cf446a9f41a6ccd2c1148e928e5f41a13bdc2d5
         <activity
+            android:name=".Ordering_landing"
+            android:exported="false" />
+        <activity
             android:name=".Booking_landing"
             android:exported="false" />
         <activity

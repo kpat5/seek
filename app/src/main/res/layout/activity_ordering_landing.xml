@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ordering_landing"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+
+        >
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/group_19"
+            tools:layout_editor_absoluteX="63dp"
+            tools:layout_editor_absoluteY="111dp"
+            android:layout_margin="30dp"
+            android:contentDescription="Lazeez"/>
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="297dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/group_20"
+            tools:layout_editor_absoluteX="63dp"
+            tools:layout_editor_absoluteY="310dp"
+            android:layout_margin="30dp"
+            android:contentDescription="Smoothie"/>
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="297dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            app:srcCompat="@drawable/group_21"
+            tools:layout_editor_absoluteX="63dp"
+            tools:layout_editor_absoluteY="502dp"
+            android:contentDescription="Alkareem"/>
+
+        <ImageView
+            android:layout_width="295dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/group_22__1_"
+            android:layout_margin="30dp"
+            android:contentDescription="mess"/>
+    </LinearLayout>
+
+</ScrollView>
+
+
