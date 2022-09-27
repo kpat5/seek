@@ -3,8 +3,11 @@ package com.example.seek;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
+import android.graphics.Color;
 import android.os.Bundle;
+import android.view.Gravity;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -23,7 +26,7 @@ public class Bmu_Map extends AppCompatActivity {
     int fromInd;
     String toVal;
     int toInd;
-
+    LinearLayout mapLayout;
     Button search;
 
     int[][] bmuMap = {
@@ -164,6 +167,9 @@ public class Bmu_Map extends AppCompatActivity {
         }
         return -1;
     }
+    public void removeViews(){
+        mapLayout.removeAllViews();
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -171,6 +177,7 @@ public class Bmu_Map extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bmu_map);
 //        final Bmu_Map thisView = this;
+        mapLayout = (LinearLayout) findViewById(R.id.layoutMap);
         final Context context=this;
 
         search=(Button)findViewById(R.id.searchMap);
@@ -184,7 +191,7 @@ public class Bmu_Map extends AppCompatActivity {
         to.setAdapter(place);
 
 
-        LinearLayout mapLayout = (LinearLayout) findViewById(R.id.layoutMap);
+
 
         from.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
@@ -215,15 +222,20 @@ public class Bmu_Map extends AppCompatActivity {
 
 
         search.setOnClickListener(new View.OnClickListener() {
+
             public void onClick(View v) {
-                ArrayList<String> route;
+                removeViews();
                 if(fromVal!=null&&toVal!=null)
                 {
                     dijkstra(bmuMap,fromInd,map);
                     int index=findRoute(toVal);
+                    ArrayList<String> route;
                     route=list.get(index);
                     int num=route.size();
-                    final TextView[] myTextViews = new TextView[num]; // create an empty array;
+                    final TextView[] myTextViews = new TextView[num];
+
+                     // create an empty array;
+
                     for (int i = 0; i < num; i++) {
                         // create a new textview
                     final TextView path = new TextView(context);
@@ -231,7 +243,11 @@ public class Bmu_Map extends AppCompatActivity {
                         path.setText(route.get(i));
                         // add the textview to the linearlayout
                         mapLayout.addView(path);
+                        path.setHeight(70);
+                        path.setTextColor(Color.BLACK);
+//                        path.setId(2);
                         // save a reference to the textview for later
+                        path.setGravity(Gravity.CENTER);
                         myTextViews[i] = path;
                     }
                 }
