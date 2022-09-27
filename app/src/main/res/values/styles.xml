@@ -196,15 +196,15 @@
 <!--    </style>-->
 
 
+<!--    <style name="title_bold_28">-->
+<!--        <item name="android:fontFamily">@font/proxima_nova</item>-->
+<!--        <item name="android:textStyle">bold</item>-->
+<!--        <item name="android:textSize">28sp</item>-->
+<!--    </style>-->
+
 <!--    <style name="sub_title_regular_10">-->
 <!--        <item name="android:fontFamily">@font/proxima_nova</item>-->
 <!--        <item name="android:textStyle">normal</item>-->
-<!--        <item name="android:textSize">10sp</item>-->
-<!--    </style>-->
-
-<!--    <style name="sub_title_bold_10">-->
-<!--        <item name="android:fontFamily">@font/proxima_nova</item>-->
-<!--        <item name="android:textStyle">bold</item>-->
 <!--        <item name="android:textSize">10sp</item>-->
 <!--    </style>-->
 
@@ -214,9 +214,9 @@
 <!--        <item name="android:textSize">14sp</item>-->
 <!--    </style>-->
 
-<!--    <style name="title_bold_28">-->
+<!--    <style name="sub_title_bold_10">-->
 <!--        <item name="android:fontFamily">@font/proxima_nova</item>-->
 <!--        <item name="android:textStyle">bold</item>-->
-<!--        <item name="android:textSize">28sp</item>-->
+<!--        <item name="android:textSize">10sp</item>-->
 <!--    </style>-->
 </resources>
