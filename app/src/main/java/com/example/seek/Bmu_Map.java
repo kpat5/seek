@@ -244,7 +244,7 @@ public class Bmu_Map extends AppCompatActivity {
                         // add the textview to the linearlayout
                         mapLayout.addView(path);
                         path.setHeight(70);
-                        path.setTextColor(Color.BLACK);
+//                        path.setTextColor(Color.BLUE);
 //                        path.setId(2);
                         // save a reference to the textview for later
                         path.setGravity(Gravity.CENTER);
