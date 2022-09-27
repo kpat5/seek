@@ -16,7 +16,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="?"
+            android:text="/?"
             android:textAlignment="center"
             android:textColor="@color/colorPrimary"
             android:textSize="160sp"
@@ -32,6 +32,7 @@
             android:textSize="30sp"
             />
         <LinearLayout
+
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
@@ -46,6 +47,7 @@
                 android:layout_marginTop="20dp"/>
 
                 <EditText
+                    android:id="@+id/inputEmail1"
                     android:layout_width="280dp"
                     android:layout_height="40dp"
                     android:hint=" Email/Username"
@@ -56,6 +58,7 @@
                     />
 
             <EditText
+                android:id="@+id/inputPass"
                 android:layout_width="280dp"
                 android:layout_height="40dp"
                 android:hint=" Password"
@@ -64,6 +67,7 @@
                 android:background="@drawable/shape"
                 />
             <Button
+                android:id="@+id/loginBtn"
                 android:layout_width="140sp"
                 android:layout_height="wrap_content"
                 android:text="Login"
