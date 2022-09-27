@@ -8,215 +8,217 @@
         <item name="android:gravity">center</item>
     </style>
 
-    <style name="btn_style_16">
-        <item name="android:theme">@style/heading_bold_16</item>
-        <item name="android:textAllCaps">true</item>
-        <item name="android:gravity">center</item>
-    </style>
+    <style name="heading_bold_18"></style>
 
-    <style name="btn_style_14">
-        <item name="android:theme">@style/sub_heading_bold_14</item>
-        <item name="android:textAllCaps">true</item>
-        <item name="android:gravity">center</item>
-    </style>
+    <!--    <style name="btn_style_16">-->
+<!--        <item name="android:theme">@style/heading_bold_16</item>-->
+<!--        <item name="android:textAllCaps">true</item>-->
+<!--        <item name="android:gravity">center</item>-->
+<!--    </style>-->
 
-
-    <style name="title_60">
-        <item name="android:fontFamily">@font/proxima_nova</item>
-        <item name="android:textStyle">bold</item>
-        <item name="android:textSize">60sp</item>
-    </style>
-
-    <style name="title_55">
-        <item name="android:fontFamily">@font/proxima_nova</item>
-        <item name="android:textStyle">bold</item>
-        <item name="android:textSize">45sp</item>
-    </style>
-
-    <style name="title_24">
-        <item name="android:fontFamily">@font/proxima_nova</item>
-        <item name="android:textStyle">bold</item>
-        <item name="android:textSize">24sp</item>
-    </style>
-
-    <style name="title_25">
-        <item name="android:fontFamily">@font/proxima_nova</item>
-        <item name="android:textStyle">bold</item>
-        <item name="android:textSize">25sp</item>
-    </style>
-
-    <style name="title_26">
-        <item name="android:fontFamily">@font/proxima_nova</item>
-        <item name="android:textStyle">bold</item>
-        <item name="android:textSize">26sp</item>
-    </style>
-
-    <style name="title_30">
-        <item name="android:fontFamily">@font/proxima_nova</item>
-        <item name="android:textStyle">bold</item>
-        <item name="android:textSize">30sp</item>
-    </style>
-
-    <style name="regular_24">
-        <item name="android:fontFamily">@font/proxima_nova</item>
-        <item name="android:textStyle">normal</item>
-        <item name="android:textSize">24sp</item>
-    </style>
-
-    <style name="heading_bold_16">
-        <item name="android:fontFamily">@font/proxima_nova</item>
-        <item name="android:textStyle">bold</item>
-        <item name="android:textSize">16sp</item>
-    </style>
-
-    <style name="heading_16">
-        <item name="android:fontFamily">@font/proxima_nova</item>
-        <item name="android:textStyle">normal</item>
-        <item name="android:textSize">16sp</item>
-    </style>
-
-    <style name="heading_bold_20">
-        <item name="android:fontFamily">@font/proxima_nova</item>
-        <item name="android:textStyle">bold</item>
-        <item name="android:textSize">20sp</item>
-    </style>
-
-    <style name="heading_bold_24">
-        <item name="android:fontFamily">@font/proxima_nova</item>
-        <item name="android:textStyle">bold</item>
-        <item name="android:textSize">24sp</item>
-    </style>
-
-    <style name="heading_bold_26">
-        <item name="android:fontFamily">@font/proxima_nova</item>
-        <item name="android:textStyle">bold</item>
-        <item name="android:textSize">26sp</item>
-    </style>
-
-    <style name="heading_italics_20">
-        <item name="android:fontFamily">@font/proxima_nova</item>
-        <item name="android:textStyle">italic</item>
-        <item name="android:textSize">20sp</item>
-    </style>
-
-    <style name="heading_bold_18">
-        <item name="android:fontFamily">@font/proxima_nova</item>
-        <item name="android:textStyle">bold</item>
-        <item name="android:textSize">18sp</item>
-    </style>
-
-    <style name="heading_regular_18">
-        <item name="android:fontFamily">@font/proxima_nova</item>
-        <item name="android:textStyle">normal</item>
-        <item name="android:textSize">18sp</item>
-    </style>
-
-    <style name="heading_italics_18">
-        <item name="android:fontFamily">@font/proxima_nova</item>
-        <item name="android:textStyle">italic</item>
-        <item name="android:textSize">18sp</item>
-    </style>
-
-    <style name="heading_italics_16">
-        <item name="android:fontFamily">@font/proxima_nova</item>
-        <item name="android:textStyle">italic</item>
-        <item name="android:textSize">16sp</item>
-    </style>
-
-    <style name="heading_italics_14">
-        <item name="android:fontFamily">@font/proxima_nova</item>
-        <item name="android:textStyle">italic</item>
-        <item name="android:textSize">14sp</item>
-    </style>
-
-    <style name="sub_heading_18">
-        <item name="android:fontFamily">@font/proxima_nova</item>
-        <item name="android:textStyle">bold</item>
-        <item name="android:textSize">16sp</item>
-    </style>
-
-    <style name="sub_heading_bold_14">
-        <item name="android:fontFamily">@font/proxima_nova</item>
-        <item name="android:textStyle">bold</item>
-        <item name="android:textSize">14sp</item>
-    </style>
-
-    <style name="sub_heading_bold_13">
-        <item name="android:fontFamily">@font/proxima_nova</item>
-        <item name="android:textStyle">bold</item>
-        <item name="android:textSize">13sp</item>
-    </style>
-
-    <style name="sub_heading_bold_15">
-        <item name="android:fontFamily">@font/proxima_nova</item>
-        <item name="android:textStyle">bold</item>
-        <item name="android:textSize">15sp</item>
-    </style>
-
-    <style name="sub_heading_italics_14">
-        <item name="android:fontFamily">@font/proxima_nova</item>
-        <item name="android:textStyle">italic</item>
-        <item name="android:textSize">14sp</item>
-    </style>
-
-    <style name="sub_heading_italics_12">
-        <item name="android:fontFamily">@font/proxima_nova</item>
-        <item name="android:textStyle">italic</item>
-        <item name="android:textSize">12sp</item>
-    </style>
-
-    <style name="sub_title_bold_12">
-        <item name="android:fontFamily">@font/proxima_nova</item>
-        <item name="android:textStyle">bold</item>
-        <item name="android:textSize">12sp</item>
-    </style>
-
-    <style name="sub_title_regular_12">
-        <item name="android:fontFamily">@font/proxima_nova</item>
-        <item name="android:textStyle">normal</item>
-        <item name="android:textSize">12sp</item>
-    </style>
-
-    <style name="sub_title_italic_12">
-        <item name="android:fontFamily">@font/proxima_nova</item>
-        <item name="android:textStyle">italic</item>
-        <item name="android:textSize">12sp</item>
-    </style>
-
-    <style name="sub_title_italics_12">
-        <item name="android:fontFamily">@font/proxima_nova</item>
-        <item name="android:textStyle">italic</item>
-        <item name="android:textSize">12sp</item>
-    </style>
-
-    <style name="small_text_10">
-        <item name="android:fontFamily">@font/proxima_nova</item>
-        <item name="android:textStyle">bold</item>
-        <item name="android:textSize">10sp</item>
-    </style>
+<!--    <style name="btn_style_14">-->
+<!--        <item name="android:theme">@style/sub_heading_bold_14</item>-->
+<!--        <item name="android:textAllCaps">true</item>-->
+<!--        <item name="android:gravity">center</item>-->
+<!--    </style>-->
 
 
-    <style name="sub_title_regular_10">
-        <item name="android:fontFamily">@font/proxima_nova</item>
-        <item name="android:textStyle">normal</item>
-        <item name="android:textSize">10sp</item>
-    </style>
+<!--    <style name="title_60">-->
+<!--        <item name="android:fontFamily">@font/proxima_nova</item>-->
+<!--        <item name="android:textStyle">bold</item>-->
+<!--        <item name="android:textSize">60sp</item>-->
+<!--    </style>-->
 
-    <style name="sub_title_bold_10">
-        <item name="android:fontFamily">@font/proxima_nova</item>
-        <item name="android:textStyle">bold</item>
-        <item name="android:textSize">10sp</item>
-    </style>
+<!--    <style name="title_55">-->
+<!--        <item name="android:fontFamily">@font/proxima_nova</item>-->
+<!--        <item name="android:textStyle">bold</item>-->
+<!--        <item name="android:textSize">45sp</item>-->
+<!--    </style>-->
 
-    <style name="text_regular_14">
-        <item name="android:fontFamily">@font/proxima_nova</item>
-        <item name="android:textStyle">normal</item>
-        <item name="android:textSize">14sp</item>
-    </style>
+<!--    <style name="title_24">-->
+<!--        <item name="android:fontFamily">@font/proxima_nova</item>-->
+<!--        <item name="android:textStyle">bold</item>-->
+<!--        <item name="android:textSize">24sp</item>-->
+<!--    </style>-->
 
-    <style name="title_bold_28">
-        <item name="android:fontFamily">@font/proxima_nova</item>
-        <item name="android:textStyle">bold</item>
-        <item name="android:textSize">28sp</item>
-    </style>
+<!--    <style name="title_25">-->
+<!--        <item name="android:fontFamily">@font/proxima_nova</item>-->
+<!--        <item name="android:textStyle">bold</item>-->
+<!--        <item name="android:textSize">25sp</item>-->
+<!--    </style>-->
+
+<!--    <style name="title_26">-->
+<!--        <item name="android:fontFamily">@font/proxima_nova</item>-->
+<!--        <item name="android:textStyle">bold</item>-->
+<!--        <item name="android:textSize">26sp</item>-->
+<!--    </style>-->
+
+<!--    <style name="title_30">-->
+<!--        <item name="android:fontFamily">@font/proxima_nova</item>-->
+<!--        <item name="android:textStyle">bold</item>-->
+<!--        <item name="android:textSize">30sp</item>-->
+<!--    </style>-->
+
+<!--    <style name="regular_24">-->
+<!--        <item name="android:fontFamily">@font/proxima_nova</item>-->
+<!--        <item name="android:textStyle">normal</item>-->
+<!--        <item name="android:textSize">24sp</item>-->
+<!--    </style>-->
+
+<!--    <style name="heading_bold_16">-->
+<!--        <item name="android:fontFamily">@font/proxima_nova</item>-->
+<!--        <item name="android:textStyle">bold</item>-->
+<!--        <item name="android:textSize">16sp</item>-->
+<!--    </style>-->
+
+<!--    <style name="heading_16">-->
+<!--        <item name="android:fontFamily">@font/proxima_nova</item>-->
+<!--        <item name="android:textStyle">normal</item>-->
+<!--        <item name="android:textSize">16sp</item>-->
+<!--    </style>-->
+
+<!--    <style name="heading_bold_20">-->
+<!--        <item name="android:fontFamily">@font/proxima_nova</item>-->
+<!--        <item name="android:textStyle">bold</item>-->
+<!--        <item name="android:textSize">20sp</item>-->
+<!--    </style>-->
+
+<!--    <style name="heading_bold_24">-->
+<!--        <item name="android:fontFamily">@font/proxima_nova</item>-->
+<!--        <item name="android:textStyle">bold</item>-->
+<!--        <item name="android:textSize">24sp</item>-->
+<!--    </style>-->
+
+<!--    <style name="heading_bold_26">-->
+<!--        <item name="android:fontFamily">@font/proxima_nova</item>-->
+<!--        <item name="android:textStyle">bold</item>-->
+<!--        <item name="android:textSize">26sp</item>-->
+<!--    </style>-->
+
+<!--    <style name="heading_italics_20">-->
+<!--        <item name="android:fontFamily">@font/proxima_nova</item>-->
+<!--        <item name="android:textStyle">italic</item>-->
+<!--        <item name="android:textSize">20sp</item>-->
+<!--    </style>-->
+
+<!--    <style name="heading_bold_18">-->
+<!--        <item name="android:fontFamily">@font/proxima_nova</item>-->
+<!--        <item name="android:textStyle">bold</item>-->
+<!--        <item name="android:textSize">18sp</item>-->
+<!--    </style>-->
+
+<!--    <style name="heading_regular_18">-->
+<!--        <item name="android:fontFamily">@font/proxima_nova</item>-->
+<!--        <item name="android:textStyle">normal</item>-->
+<!--        <item name="android:textSize">18sp</item>-->
+<!--    </style>-->
+
+<!--    <style name="heading_italics_18">-->
+<!--        <item name="android:fontFamily">@font/proxima_nova</item>-->
+<!--        <item name="android:textStyle">italic</item>-->
+<!--        <item name="android:textSize">18sp</item>-->
+<!--    </style>-->
+
+<!--    <style name="heading_italics_16">-->
+<!--        <item name="android:fontFamily">@font/proxima_nova</item>-->
+<!--        <item name="android:textStyle">italic</item>-->
+<!--        <item name="android:textSize">16sp</item>-->
+<!--    </style>-->
+
+<!--    <style name="heading_italics_14">-->
+<!--        <item name="android:fontFamily">@font/proxima_nova</item>-->
+<!--        <item name="android:textStyle">italic</item>-->
+<!--        <item name="android:textSize">14sp</item>-->
+<!--    </style>-->
+
+<!--    <style name="sub_heading_18">-->
+<!--        <item name="android:fontFamily">@font/proxima_nova</item>-->
+<!--        <item name="android:textStyle">bold</item>-->
+<!--        <item name="android:textSize">16sp</item>-->
+<!--    </style>-->
+
+<!--    <style name="sub_heading_bold_14">-->
+<!--        <item name="android:fontFamily">@font/proxima_nova</item>-->
+<!--        <item name="android:textStyle">bold</item>-->
+<!--        <item name="android:textSize">14sp</item>-->
+<!--    </style>-->
+
+<!--    <style name="sub_heading_bold_13">-->
+<!--        <item name="android:fontFamily">@font/proxima_nova</item>-->
+<!--        <item name="android:textStyle">bold</item>-->
+<!--        <item name="android:textSize">13sp</item>-->
+<!--    </style>-->
+
+<!--    <style name="sub_heading_bold_15">-->
+<!--        <item name="android:fontFamily">@font/proxima_nova</item>-->
+<!--        <item name="android:textStyle">bold</item>-->
+<!--        <item name="android:textSize">15sp</item>-->
+<!--    </style>-->
+
+<!--    <style name="sub_heading_italics_14">-->
+<!--        <item name="android:fontFamily">@font/proxima_nova</item>-->
+<!--        <item name="android:textStyle">italic</item>-->
+<!--        <item name="android:textSize">14sp</item>-->
+<!--    </style>-->
+
+<!--    <style name="sub_heading_italics_12">-->
+<!--        <item name="android:fontFamily">@font/proxima_nova</item>-->
+<!--        <item name="android:textStyle">italic</item>-->
+<!--        <item name="android:textSize">12sp</item>-->
+<!--    </style>-->
+
+<!--    <style name="sub_title_bold_12">-->
+<!--        <item name="android:fontFamily">@font/proxima_nova</item>-->
+<!--        <item name="android:textStyle">bold</item>-->
+<!--        <item name="android:textSize">12sp</item>-->
+<!--    </style>-->
+
+<!--    <style name="sub_title_regular_12">-->
+<!--        <item name="android:fontFamily">@font/proxima_nova</item>-->
+<!--        <item name="android:textStyle">normal</item>-->
+<!--        <item name="android:textSize">12sp</item>-->
+<!--    </style>-->
+
+<!--    <style name="sub_title_italic_12">-->
+<!--        <item name="android:fontFamily">@font/proxima_nova</item>-->
+<!--        <item name="android:textStyle">italic</item>-->
+<!--        <item name="android:textSize">12sp</item>-->
+<!--    </style>-->
+
+<!--    <style name="sub_title_italics_12">-->
+<!--        <item name="android:fontFamily">@font/proxima_nova</item>-->
+<!--        <item name="android:textStyle">italic</item>-->
+<!--        <item name="android:textSize">12sp</item>-->
+<!--    </style>-->
+
+<!--    <style name="small_text_10">-->
+<!--        <item name="android:fontFamily">@font/proxima_nova</item>-->
+<!--        <item name="android:textStyle">bold</item>-->
+<!--        <item name="android:textSize">10sp</item>-->
+<!--    </style>-->
+
+
+<!--    <style name="sub_title_regular_10">-->
+<!--        <item name="android:fontFamily">@font/proxima_nova</item>-->
+<!--        <item name="android:textStyle">normal</item>-->
+<!--        <item name="android:textSize">10sp</item>-->
+<!--    </style>-->
+
+<!--    <style name="sub_title_bold_10">-->
+<!--        <item name="android:fontFamily">@font/proxima_nova</item>-->
+<!--        <item name="android:textStyle">bold</item>-->
+<!--        <item name="android:textSize">10sp</item>-->
+<!--    </style>-->
+
+<!--    <style name="text_regular_14">-->
+<!--        <item name="android:fontFamily">@font/proxima_nova</item>-->
+<!--        <item name="android:textStyle">normal</item>-->
+<!--        <item name="android:textSize">14sp</item>-->
+<!--    </style>-->
+
+<!--    <style name="title_bold_28">-->
+<!--        <item name="android:fontFamily">@font/proxima_nova</item>-->
+<!--        <item name="android:textStyle">bold</item>-->
+<!--        <item name="android:textSize">28sp</item>-->
+<!--    </style>-->
 </resources>
