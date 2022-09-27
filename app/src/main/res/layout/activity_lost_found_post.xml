@@ -37,7 +37,7 @@
                 android:layout_marginRight="5dp"
                 android:gravity="center|top"
                 android:hint="Add Title"
-                style="@style/heading_bold_18"
+
                 android:textColor="@color/white"
                 android:textColorHint="@color/colorPrimary"
                 android:background="@color/colorPrimary1"/>
@@ -131,7 +131,7 @@
                     android:lines="4"
                     android:hint="Add description"
                     android:textColor="@color/white"
-                    style="@style/heading_bold_18"
+
                     android:textColorHint="@color/white"
                     android:background="@color/colorPrimary"/>
 
