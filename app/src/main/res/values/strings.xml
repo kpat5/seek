@@ -13,4 +13,6 @@
     <string name="place">Place Order</string>
     <string name="kareem">Al-Kareem</string>
 
+    <string name="book" />
+
 </resources>
