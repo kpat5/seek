@@ -171,7 +171,8 @@ public class Bmu_Map extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bmu_map);
 //        final Bmu_Map thisView = this;
-        final TextView path = new TextView(this);
+        final Context context=this;
+
         search=(Button)findViewById(R.id.searchMap);
         Spinner from=(Spinner) findViewById(R.id.from_map);
         Spinner to=(Spinner) findViewById(R.id.to_map);
@@ -225,7 +226,7 @@ public class Bmu_Map extends AppCompatActivity {
                     final TextView[] myTextViews = new TextView[num]; // create an empty array;
                     for (int i = 0; i < num; i++) {
                         // create a new textview
-//                    final TextView path = new TextView(thisView.getContext());
+                    final TextView path = new TextView(context);
                         // set some properties of rowTextView or something
                         path.setText(route.get(i));
                         // add the textview to the linearlayout
