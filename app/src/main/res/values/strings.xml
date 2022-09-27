@@ -12,4 +12,24 @@
     <string name="location">Location:</string>
     <string name="place">Place Order</string>
 
+    <string-array name="places">
+        <item>Gate</item>
+        <item>Ground</item>
+        <item>Gateway Building</item>
+        <item>Dhaba</item>
+        <item>New Building</item>
+        <item>Faculty Housing</item>
+        <item>T2</item>
+        <item>D Cafe(Mess)</item>
+        <item>Appt C</item>
+        <item>Appt B</item>
+        <item>Appt A</item>
+        <item>Laundry</item>
+        <item>Old Tower</item>
+        <item>Falhar</item>
+        <item>Workshop</item>
+        <item>Library/Area 51</item>
+        <item>Volleyball Court</item>
+        <item>Pond Area</item>
+    </string-array>
 </resources>
