@@ -3,17 +3,20 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/yadav/AndroidStudioProjects/seek/app/src/main/res/layout/activity_al_kareem.xml" value="0.1578125" />
-        <entry key="..\:/Users/yadav/AndroidStudioProjects/seek/app/src/main/res/layout/activity_booking_landing.xml" value="0.16666666666666666" />
-        <entry key="..\:/Users/yadav/AndroidStudioProjects/seek/app/src/main/res/layout/activity_cabin.xml" value="0.22" />
-        <entry key="..\:/Users/yadav/AndroidStudioProjects/seek/app/src/main/res/layout/activity_confirmbooking.xml" value="0.16666666666666666" />
-        <entry key="..\:/Users/yadav/AndroidStudioProjects/seek/app/src/main/res/layout/activity_lazeez.xml" value="0.1578125" />
-        <entry key="..\:/Users/yadav/AndroidStudioProjects/seek/app/src/main/res/layout/activity_lost_found_post.xml" value="0.1578125" />
-        <entry key="..\:/Users/yadav/AndroidStudioProjects/seek/app/src/main/res/layout/activity_main.xml" value="0.1578125" />
-        <entry key="..\:/Users/yadav/AndroidStudioProjects/seek/app/src/main/res/layout/activity_mess.xml" value="0.1578125" />
-        <entry key="..\:/Users/yadav/AndroidStudioProjects/seek/app/src/main/res/layout/activity_ordering_landing.xml" value="0.1578125" />
-        <entry key="..\:/Users/yadav/AndroidStudioProjects/seek/app/src/main/res/layout/activity_register.xml" value="0.1578125" />
-        <entry key="..\:/Users/yadav/AndroidStudioProjects/seek/app/src/main/res/layout/activity_smoothie.xml" value="0.1578125" />
+        <entry key="..\:/Users/Shashwat Dixit/OneDrive/Desktop/AndroidStudioProjects/seek/app/src/main/res/drawable-v24/avatar.xml" value="0.18" />
+        <entry key="..\:/Users/Shashwat Dixit/OneDrive/Desktop/AndroidStudioProjects/seek/app/src/main/res/drawable-v24/ic_add_icon.xml" value="0.18" />
+        <entry key="..\:/Users/Shashwat Dixit/OneDrive/Desktop/AndroidStudioProjects/seek/app/src/main/res/font/proxima_nova.xml" value="0.28020833333333334" />
+        <entry key="..\:/Users/Shashwat Dixit/OneDrive/Desktop/AndroidStudioProjects/seek/app/src/main/res/font/proxima_nova_regular.xml" value="0.22905982905982905" />
+        <entry key="..\:/Users/Shashwat Dixit/OneDrive/Desktop/AndroidStudioProjects/seek/app/src/main/res/layout/activity_lost_found_post.xml" value="0.25" />
+        <entry key="..\:/Users/singh/AndroidStudioProjects/seek/app/src/main/res/layout/activity_al_kareem.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/singh/AndroidStudioProjects/seek/app/src/main/res/layout/activity_cabin.xml" value="0.17135416666666667" />
+        <entry key="..\:/Users/singh/AndroidStudioProjects/seek/app/src/main/res/layout/activity_confirmbooking.xml" value="0.17135416666666667" />
+        <entry key="..\:/Users/singh/AndroidStudioProjects/seek/app/src/main/res/layout/activity_landing.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/singh/AndroidStudioProjects/seek/app/src/main/res/layout/activity_lazeez.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/singh/AndroidStudioProjects/seek/app/src/main/res/layout/activity_lost_found_post.xml" value="0.22" />
+        <entry key="..\:/Users/singh/AndroidStudioProjects/seek/app/src/main/res/layout/activity_mess.xml" value="0.22" />
+        <entry key="..\:/Users/singh/AndroidStudioProjects/seek/app/src/main/res/layout/activity_ordering_landing.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/singh/AndroidStudioProjects/seek/app/src/main/res/layout/activity_smoothie.xml" value="0.22" />
       </map>
     </option>
   </component>
