@@ -43,12 +43,12 @@ public class Register extends AppCompatActivity {
         mAuth=FirebaseAuth.getInstance();
         mUser=mAuth.getCurrentUser();
 
-    regBtn.setOnClickListener(new View.OnClickListener() {
-        @Override
-        public void onClick(View view) {
-            PerformAuth();
-        }
-    });
+        regBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                PerformAuth();
+            }
+        });
     }
 
     private void PerformAuth() {
@@ -71,24 +71,24 @@ public class Register extends AppCompatActivity {
         }else if (phone.isEmpty() || phone.length()<10) {
             inputName.setError("Enter proper phone number");
         }else {
-           progressDialog.setMessage("Please wait while Registration...");
-           progressDialog.setTitle("Registration");
-           progressDialog.setCanceledOnTouchOutside(false);
-           progressDialog.show();
+            progressDialog.setMessage("Please wait while Registration...");
+            progressDialog.setTitle("Registration");
+            progressDialog.setCanceledOnTouchOutside(false);
+            progressDialog.show();
 
-           mAuth.createUserWithEmailAndPassword(email,password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
-               @Override
-               public void onComplete(@NonNull Task<AuthResult> task) {
-                   if (task.isSuccessful()){
-                       progressDialog.dismiss();
-                       sendUserToNextActivity();
-                       Toast.makeText(Register.this, "Registration Successful", Toast.LENGTH_SHORT).show();
-                   }else {
-                       progressDialog.dismiss();
-                       Toast.makeText(Register.this, ""+task.getException(), Toast.LENGTH_SHORT).show();
-                   }
-               }
-           });
+            mAuth.createUserWithEmailAndPassword(email,password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+                @Override
+                public void onComplete(@NonNull Task<AuthResult> task) {
+                    if (task.isSuccessful()){
+                        progressDialog.dismiss();
+                        sendUserToNextActivity();
+                        Toast.makeText(Register.this, "Registration Successful", Toast.LENGTH_SHORT).show();
+                    }else {
+                        progressDialog.dismiss();
+                        Toast.makeText(Register.this, ""+task.getException(), Toast.LENGTH_SHORT).show();
+                    }
+                }
+            });
         }
     }
 

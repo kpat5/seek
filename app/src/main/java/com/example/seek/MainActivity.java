@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
     public void openLogin(){
-        Intent intent =new Intent(this, Landing.class);
+        Intent intent =new Intent(this, Login.class);
         startActivity(intent);
     }
     public void openRegister(){

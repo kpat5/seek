@@ -16,7 +16,7 @@
 
 
         <ImageButton
-            android:id="@+id/imageView4"
+            android:id="@+id/lazeezButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/group_19"
@@ -25,9 +25,9 @@
             android:layout_margin="30dp"
             android:contentDescription="Lazeez"/>
 
-        <ImageView
+        <ImageButton
             android:id="@+id/imageView5"
-            android:layout_width="297dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:srcCompat="@drawable/group_20"
             tools:layout_editor_absoluteX="63dp"
@@ -35,9 +35,9 @@
             android:layout_margin="30dp"
             android:contentDescription="Smoothie"/>
 
-        <ImageView
+        <ImageButton
             android:id="@+id/imageView6"
-            android:layout_width="297dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="30dp"
             app:srcCompat="@drawable/group_21"
@@ -45,12 +45,14 @@
             tools:layout_editor_absoluteY="502dp"
             android:contentDescription="Alkareem"/>
 
-        <ImageView
-            android:layout_width="295dp"
+        <ImageButton
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/group_22__1_"
             android:layout_margin="30dp"
             android:contentDescription="mess"/>
+
+
     </LinearLayout>
 
 </ScrollView>

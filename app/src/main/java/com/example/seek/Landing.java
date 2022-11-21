@@ -51,7 +51,7 @@ public class Landing extends AppCompatActivity {
 
     }
     public void openLostFound(){
-        Intent intent =new Intent(this, lost_found_post.class);
+        Intent intent =new Intent(this, AlKareem.class);
         startActivity(intent);
     }
     public void openOrder(){

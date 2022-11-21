@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "209124509617",
+    "project_id": "seekauth",
+    "storage_bucket": "seekauth.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:209124509617:android:f274c26d017acc0e66df90",
+        "android_client_info": {
+          "package_name": "com.example.seek"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "209124509617-etqjgn9c3l2kkta40s9hb3ergiq3397g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNE3vah4Hu0O1aLtX8xltU-rn0TwY5r1U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "209124509617-etqjgn9c3l2kkta40s9hb3ergiq3397g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
