@@ -5,22 +5,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".lost_found_post"
-    android:background="@color/colorPrimary1">
+    tools:context=".lostFound"
+    android:background="@color/white">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
-
-        <ImageView
-            android:id="@+id/imageViewBack"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginLeft="20dp"
-            android:src="@drawable/back"
-            app:tint="@color/colorPrimary" />
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
@@ -38,9 +29,9 @@
                 android:gravity="center|top"
                 android:hint="Add Title"
 
-                android:textColor="@color/white"
+                android:textColor="@color/colorPrimary"
                 android:textColorHint="@color/colorPrimary"
-                android:background="@color/colorPrimary1"/>
+                android:background="@color/white"/>
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -90,16 +81,16 @@
                 app:strokeWidth="1dp"
                 android:gravity="center"/>
 
-            <Button
-                android:id="@+id/buttonCamera"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:text="Open Camera"
-                android:textColor="@color/white"
-                app:strokeColor="@color/button"
-                android:textStyle="bold"
-                app:strokeWidth="1dp" />
+<!--            <Button-->
+<!--                android:id="@+id/buttonCamera"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginStart="16dp"-->
+<!--                android:text="Open Camera"-->
+<!--                android:textColor="@color/white"-->
+<!--                app:strokeColor="@color/button"-->
+<!--                android:textStyle="bold"-->
+<!--                app:strokeWidth="1dp" />-->
 
 
 

@@ -9,9 +9,12 @@ import android.graphics.Color;
 import android.os.Bundle;
 import android.view.Gravity;
 import android.view.View;
+import android.view.ViewGroup;
+import android.view.Window;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.Spinner;
 import android.widget.TextView;
@@ -26,8 +29,9 @@ public class Bmu_Map extends AppCompatActivity {
     int fromInd;
     String toVal;
     int toInd;
-    LinearLayout mapLayout;
     Button search;
+    LinearLayout mapLayout;
+    ImageView img;
 
     int[][] bmuMap = {
             {0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
@@ -70,6 +74,8 @@ public class Bmu_Map extends AppCompatActivity {
         map.put(16,"Volleyball Court");
         map.put(17,"Pond Area");
     }
+    //    final TextView[] myTextViews = new TextView[num];
+//    ArrayList<TextView> myTextViews=new ArrayList<TextView>();
     static ArrayList<ArrayList<String>> list=new ArrayList<ArrayList<String>>();
     void dijkstra(@NonNull int[][] bmuMap, int source, HashMap<Integer,String> map)
     {
@@ -169,20 +175,23 @@ public class Bmu_Map extends AppCompatActivity {
     }
     public void removeViews(){
         mapLayout.removeAllViews();
+
     }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
+        getSupportActionBar().hide();
         setContentView(R.layout.activity_bmu_map);
 //        final Bmu_Map thisView = this;
         mapLayout = (LinearLayout) findViewById(R.id.layoutMap);
         final Context context=this;
-
         search=(Button)findViewById(R.id.searchMap);
         Spinner from=(Spinner) findViewById(R.id.from_map);
         Spinner to=(Spinner) findViewById(R.id.to_map);
+        img=(ImageView) findViewById(R.id.imageView4);
 
         ArrayAdapter<CharSequence> place=ArrayAdapter.createFromResource(this,R.array.places, android.R.layout.simple_spinner_item);
         place.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
@@ -220,13 +229,15 @@ public class Bmu_Map extends AppCompatActivity {
             }
         });
 
-
+        ArrayList<TextView> myTextViews=new ArrayList<>();
         search.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v) {
-                removeViews();
+//                removeViews();
                 if(fromVal!=null&&toVal!=null)
                 {
+                    img.setVisibility(View.INVISIBLE);
+//                    myTextViews.clear();
                     dijkstra(bmuMap,fromInd,map);
                     int index=findRoute(toVal);
                     ArrayList<String> route;
@@ -234,22 +245,36 @@ public class Bmu_Map extends AppCompatActivity {
                     int num=route.size();
                     final TextView[] myTextViews = new TextView[num];
 
-                     // create an empty array;
+//                    mapLayout.invalidate();
 
+                    // create an empty array;
+                    for(int i=0;i<myTextViews.length;i++)
+                    {
+//                        myTextViews.get(i).setVisibility(View.GONE);
+                        mapLayout.removeAllViews();
+                    }
                     for (int i = 0; i < num; i++) {
                         // create a new textview
-                    final TextView path = new TextView(context);
-                        // set some properties of rowTextView or something
-                        path.setText(route.get(i));
+                        final TextView path = new TextView(context);
+                        // set some properties of rowTextView or somethin
+                        path.setText(route.get(i)+"\n|");
+                        if(i==num-1)path.setText(route.get(i));
                         // add the textview to the linearlayout
-                        mapLayout.addView(path);
-                        path.setHeight(70);
-//                        path.setTextColor(Color.BLUE);
+//                        mapLayout.addView(path);
+//                        mapLayout.removeView(path);
+                        path.setHeight(130);
+                        path.setTextColor(Color.BLACK);
 //                        path.setId(2);
                         // save a reference to the textview for later
                         path.setGravity(Gravity.CENTER);
-                        myTextViews[i] = path;
+                        myTextViews[i]=path;
+
                     }
+                    for(TextView i:myTextViews)
+                    {
+                        mapLayout.addView(i);
+                    }
+
                 }
             }
         });

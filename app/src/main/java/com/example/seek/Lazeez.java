@@ -10,6 +10,7 @@ import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.telephony.SmsManager;
 import android.view.View;
+import android.view.Window;
 import android.widget.EditText;
 import android.widget.Toast;
 
@@ -20,6 +21,8 @@ public class Lazeez extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
+        getSupportActionBar().hide();
         setContentView(R.layout.activity_lazeez);
 
         Order = (EditText)findViewById(R.id.order);
@@ -41,7 +44,7 @@ public class Lazeez extends AppCompatActivity {
     }
 
     private void MyMessage() {
-        String phoneNumber ="7690863839";
+        String phoneNumber ="8588017452";
         String Message = Order.getText().toString().trim();
         String Message2 = Location.getText().toString().trim();
         String Message3 = phone.getText().toString().trim();

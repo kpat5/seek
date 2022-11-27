@@ -6,20 +6,37 @@
     android:layout_height="match_parent"
     tools:context=".Bmu_Map">
 
-<ScrollView
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    tools:ignore="MissingConstraints">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="385dp"
+        android:layout_height="370dp"
+
+        android:layout_marginTop="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.384"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.151"
+        app:srcCompat="@drawable/location_tracking_pana" />
+
     <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
         android:gravity="center_horizontal"
-        >
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.747"
+        tools:layout_editor_absoluteX="0dp">
+
         <TextView
             android:id="@+id/textView5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="30px"
             android:text="BMU MAP"
             android:textColor="@color/colorPrimary"
             android:textSize="30sp"
@@ -29,79 +46,89 @@
             app:layout_constraintHorizontal_bias="0.507"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.139"
-            android:layout_marginTop="30px"/>
+            app:layout_constraintVertical_bias="0.139" />
 
         <TextView
             android:id="@+id/textView6"
             android:layout_width="200sp"
             android:layout_height="2dp"
-            android:background="@color/colorPrimary"
-            android:layout_marginTop="30px"/>
+            android:layout_marginTop="30px"
+            android:background="@color/colorPrimary" />
+
         <TextView
             android:id="@+id/textView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="From"
-            android:layout_marginTop="50px"/>
+            android:layout_marginTop="50px"
+            android:text="From" />
+
         <Spinner
             android:id="@+id/from_map"
             android:layout_width="300dp"
             android:layout_height="80px"
+            android:layout_marginTop="30px"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.558"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.349"
-            android:layout_marginTop="30px"/>
+            app:layout_constraintVertical_bias="0.349" />
 
         <TextView
             android:id="@+id/textView4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="30px"
             android:text="To"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.175"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.453"
-            android:layout_marginTop="30px"/>
+            app:layout_constraintVertical_bias="0.453" />
 
         <Spinner
             android:id="@+id/to_map"
             android:layout_width="300dp"
             android:layout_height="80px"
+            android:layout_marginTop="30px"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.558"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.544"
-            android:layout_marginTop="30px"/>
+            app:layout_constraintVertical_bias="0.544" />
 
         <Button
             android:id="@+id/searchMap"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Search"
+            android:layout_marginTop="30px"
 
+            android:text="Search"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.451"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.68"
-            android:layout_marginTop="30px"/>
+            app:layout_constraintVertical_bias="0.68" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
         <LinearLayout
+            android:id="@+id/layoutMap"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/layoutMap"
-            android:orientation="vertical"
-            android:background="@color/blue_1">
-        </LinearLayout>
+
+            android:orientation="vertical"></LinearLayout>
+        </ScrollView>
     </LinearLayout>
 
-</ScrollView>
+
+    <!--    </ScrollView>-->
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
